@@ -13,7 +13,7 @@
             padding:10px;
             background: rgb(19 60 96);
             color:#fff;
-            border-radius:10px;
+            border-radius:5px;
         }
         </style>
 </head>
