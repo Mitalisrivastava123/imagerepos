@@ -1,12 +1,10 @@
- .uploadimage
-        {
-            padding:10px;
-            background: rgb(19 60 96);
-            color:#fff;
-            border-radius:5px;
-        }
-        .image1
-        {
-            border:1px solid black;
-        }
-   
+ .uploadimage {
+     padding: 10px;
+     background: rgb(19 60 96);
+     color: #fff;
+     border-radius: 5px;
+ }
+
+ .image1 {
+     border: 1px solid black;
+ }
