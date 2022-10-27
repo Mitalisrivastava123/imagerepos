@@ -5,6 +5,22 @@ if(!isset($_SESSION["images"]))
     $_SESSION["images"]=[];
 }
 ?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+
+ 
+    
+</head>
+<style>
+<?php include 'style.css' ?>
+   </style> 
 <?php
 $target_dir = "uploads/";
 $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
@@ -48,7 +64,7 @@ echo "<table border='1px'>";
 foreach($_SESSION["images"] as $k => $v)
 {
 
-  echo '<tr><img src="'.$_SESSION["images"][$k].'"></tr>';
+  echo '<tr><img class="image1" src="'.$_SESSION["images"][$k].'"></tr>';
 }
 
 echo "</table>";
